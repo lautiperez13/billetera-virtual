@@ -57,10 +57,11 @@ const Login = () => {
   return (
     <div className="login-container">
       <img
-        src={"/assets/raulCoin.png"}
+        src={"/assets/9coE.gif"}
         alt={"raulCoin"}
         className='logo-img'
       />
+    <br></br>
       <h1 className='auth-title'>Iniciar sesión</h1>
       <p className='auth-subtitle'>¡Bienvenido de nuevo, te hemos echado de menos!</p>
       <form onSubmit={handleSubmit}>
